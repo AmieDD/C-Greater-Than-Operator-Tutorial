@@ -1,18 +1,17 @@
-# Welcome!
+# C# > Operator Tutorial
+This C# > Operator Tutorial www.amiedd.com AmieDD - code, cosplay and games
 
-This C# template lets you get started quickly with a simple one-page playground.
 
 ```C# runnable
 // { autofold
 using System;
 
-class Hello 
-{
-    static void Main() 
-    {
-// }
+Console.WriteLine(7.0 > 5.1);   // output: True
+Console.WriteLine(5.1 > 5.1);   // output: False
+Console.WriteLine(0.0 > 5.1);   // output: False
 
-Console.WriteLine("Hello World!");
+Console.WriteLine(double.NaN > 5.1);   // output: False
+Console.WriteLine(double.NaN <= 5.1);  // output: False
 
 // { autofold
     }
@@ -20,6 +19,7 @@ Console.WriteLine("Hello World!");
 // }
 ```
 
-# Advanced usage
+# C# > Operator
 
-If you want a more complex example (external libraries, viewers...), use the [Advanced C# template](https://tech.io/select-repo/386)
+> "Greater Than" relationship operator will return true is the first operator is greater than the second, if not it trues false. This apllies to numeric and enumerations types
+
