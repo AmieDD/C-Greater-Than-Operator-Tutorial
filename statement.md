@@ -25,5 +25,5 @@ Console.WriteLine(double.NaN <= 2.1);  //False
 
 # C# > Operator
 
-> "Greater Than" relationship operator will return true is the first operator is greater than the second, if not it trues false. This apllies to numeric and enumerations types
+> "Greater Than" relationship operator will return true if the first operator is greater than the second, if not it returns false. This applies to numeric and enumerations types
 
