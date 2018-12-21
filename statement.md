@@ -5,7 +5,6 @@ This C# > Operator Tutorial www.amiedd.com AmieDD - code, cosplay and games
 ```C# runnable
 using System;
 
-using System;
 
 class GreaterThan
 {
