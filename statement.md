@@ -29,7 +29,7 @@ Console.WriteLine(double.NaN <= 2.1);  //False
 
 In Game Hint: Relational operators like greater than and less than >, <, . If the operator IS NOT a number, example Double.NaN or Single.NaN the operation result will be FALSE. If the NaN value isn't greater than, less tha, equal to any DOUBLE or FLOAT value. 
 
-Example: This will return false
+## Example: This will return false
 
 Double zero = 0;
 
